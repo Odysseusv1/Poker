@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poker Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="opponent-hand" id="opponent-hand">
+            <h2>Computer's Hand</h2>
+            <div class="cards"></div>
+        </div>
+        
+        <div class="game-info">
+            <div id="message" class="message"></div>
+            <button id="deal-button">Deal Cards</button>
+            <button id="draw-button" disabled>Draw Cards</button>
+            <button id="show-button" disabled>Show Cards</button>
+        </div>
+
+        <div class="player-hand" id="player-hand">
+            <h2>Your Hand</h2>
+            <div class="cards"></div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
